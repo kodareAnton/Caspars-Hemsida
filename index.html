@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>H-K</title>
+    <link rel="stylesheet" href="stylesheet.css" />
+    <meta name="viewport" content="with=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+  </head>
+
+  <body>
+
+    <section class="header">
+<nav>
+  <a href="index.html"><img src="img/prototyp_1.gif"></a>
+    <div class="nav-links" id="navlinks">
+      
+      <i class="fa fa-times" onclick="hideMenu()"></i>
+
+      <ul>
+        <li class="link"><a href="about_me.html">OM MIG</a></li>
+        <li class="link"><a href="index.html">PRODUKTER </a></li>
+        <li class="link"><a href="index.html">BESTÄLL</a></li>
+      </ul>
+    </div>
+    <i class="fa fa-bars" onclick="showMenu"></i>
+  </nav>
+<div class="text-box">
+    <h1>HK Bloody Marry</h1>
+    <p>En god drink som passar till allt!</p>
+    <a href="om oss.html" class="hero-btn">BESTÄLL</a>
+</div>
+  </section>
+
+         <!----- javascript ------>
+<script>
+    var navlinks = document.getElementById("navlinks"); 
+
+    function showMenu() {
+      navlinks.style.right = "0"
+    }
+      function hideMenu() {
+      navlinks.style.right = "200"
+    }
+</script>
+
+  </body>
+</html>
